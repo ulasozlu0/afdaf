@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="emu2/emu2.vcxproj" Id="63c19a1c-d1dc-4536-a056-c236b40300f2" />
+</Solution>

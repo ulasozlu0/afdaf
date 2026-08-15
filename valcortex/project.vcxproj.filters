@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Entry\Main.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Backend.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\PakLoader.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Engine.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Settings.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface\LegacyConfig.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Drawing.hpp">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Crt.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Definitions.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Backend.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\PakLoader.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Engine.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\Importer.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Settings.hpp">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Renderer.hpp">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Globals.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\RetSpoof.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Structs.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\Xor.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\StringEnc.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\Spoof.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\VMT.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Security">
+      <UniqueIdentifier>{332d8102-b1f4-4917-a06c-a771b94de2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ec91a815-505c-4cb2-99c5-0ddf472c115f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{bc14127e-ccd7-4266-aaa5-a10f28d720a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{f9b82c1a-442d-4c18-85c1-a7bfcca8931e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{a1b2c3d4-e5f6-4321-8888-abcdef123456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{b2c3d4e5-f6a7-5432-9999-fedcba654321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{c3d4e5f6-a7b8-6543-1212-098765432109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hooks\VMT.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Security\Ret.asm">
+      <Filter>Security</Filter>
+    </MASM>
+    <MASM Include="Hooks\Internal.asm">
+      <Filter>Hooks</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
